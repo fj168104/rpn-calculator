@@ -4,6 +4,9 @@ RPN Calculator
 MainClass: com.airwallex.testing.calculator.App.java
 only run main() start programe.
 
+jar running: 
+run command: java -jar App-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+
 
 --------------------------------------------------------------------------------------------------
 test case:

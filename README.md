@@ -57,7 +57,7 @@ stack: - 1
 Example 7  
 1 2 3 4 5  
 stack: 1 2 3 4 5  
-* * * *  
+`* * * *`  
 stack: 120  
   
 Example 8  

@@ -59,8 +59,8 @@ Example 7
 stack: 1 2 3 4 5  
 `* * * *`  
 stack: 120  
-  
-`Example 8  
+ 
+Example 8  
 1 2 3 * 5 + * * 6 5  
 operator * (position: 15): insucient parameters  
 stack: 11  

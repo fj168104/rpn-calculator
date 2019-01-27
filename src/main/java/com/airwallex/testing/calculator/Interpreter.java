@@ -128,9 +128,9 @@ class Interpreter {
 	 */
 
 	private void checkExpression(String s) throws Exception {
-		if (s.equals("+") || s.equals("*") || s.equals("/")) {
+		if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
 			if (stack.size() < 2) throw new ExpressionException(s);
-		} else if (s.equals("-") || s.equals("sqrt")) {
+		} else if (s.equals("sqrt")) {
 			if (stack.size() < 1) throw new ExpressionException(s);
 		} else if (!s.equals("undo") && !s.equals("clear")) {
 			// if real number or not

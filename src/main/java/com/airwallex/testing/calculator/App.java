@@ -28,6 +28,7 @@ public class App extends Thread {
 	public static void main(String[] args) throws InterruptedException {
 		App app = new App();
 		app.start();
+		System.out.println("RPN Calculator start success");
 		app.join();
 	}
 
